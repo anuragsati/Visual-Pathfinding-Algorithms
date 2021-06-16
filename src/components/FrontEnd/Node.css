@@ -1,0 +1,78 @@
+:root{
+	--wall-color :#191a19e7;
+	--grid-border: #191a1930;
+	--shortest-path: #c8ff03;
+	--light-green :#5ce06c; 
+}
+
+.node {
+	width: 20px;
+	height: 20px;
+	border: 1px solid var(--grid-border);
+	display: inline-block;
+	margin-left: -1px;
+	margin-bottom: -4px;
+}
+
+.node-end {
+	background-color: #fa4b4b;
+}
+      
+.node-start {
+	background-color: #029117;
+}
+
+.node-wall{
+   background-color: var(--wall-color);
+
+	animation-name: drawWall;
+	animation-duration: 0.6s;
+	animation-timing-function: ease-out;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes drawWall {
+	0% { transform: scale(0.8); }
+	50% { transform: scale(1.1); }
+	100% { transform: scale(1); }
+}
+
+.node-visited{
+	animation-name: visited;
+	animation-duration: 1.5s;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+
+}
+
+@keyframes visited{
+	0% { background-color: #029117; }
+	50% { background-color: #2ac53e; }
+	100% { background-color: var(--light-green);}
+}
+
+
+.shortest-path{
+	animation-name: shortestPath;
+	animation-duration: 0.5s;
+	animation-delay: 0;
+	animation-direction: alternate;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	background-color: var(--shortest-path);
+}
+
+@keyframes shortestPath{
+	0% { transform: scale(0.9); }
+    
+	50% { transform: scale(1.1);}
+    
+	100% { transform: scale(1); }
+}
