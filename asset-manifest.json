@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/visual-pathfinder/static/css/main.cde6ea50.chunk.css",
-    "main.js": "/visual-pathfinder/static/js/main.0ece57ef.chunk.js",
-    "main.js.map": "/visual-pathfinder/static/js/main.0ece57ef.chunk.js.map",
-    "runtime-main.js": "/visual-pathfinder/static/js/runtime-main.1c75f4f5.js",
-    "runtime-main.js.map": "/visual-pathfinder/static/js/runtime-main.1c75f4f5.js.map",
-    "static/js/2.ec2f730f.chunk.js": "/visual-pathfinder/static/js/2.ec2f730f.chunk.js",
-    "static/js/2.ec2f730f.chunk.js.map": "/visual-pathfinder/static/js/2.ec2f730f.chunk.js.map",
-    "static/js/3.22a81cc0.chunk.js": "/visual-pathfinder/static/js/3.22a81cc0.chunk.js",
-    "static/js/3.22a81cc0.chunk.js.map": "/visual-pathfinder/static/js/3.22a81cc0.chunk.js.map",
-    "index.html": "/visual-pathfinder/index.html",
-    "static/css/main.cde6ea50.chunk.css.map": "/visual-pathfinder/static/css/main.cde6ea50.chunk.css.map",
-    "static/js/2.ec2f730f.chunk.js.LICENSE.txt": "/visual-pathfinder/static/js/2.ec2f730f.chunk.js.LICENSE.txt",
-    "static/media/logo.50d5c895.svg": "/visual-pathfinder/static/media/logo.50d5c895.svg"
+    "main.css": "/visual-pathfinding-algorithms/static/css/main.cde6ea50.chunk.css",
+    "main.js": "/visual-pathfinding-algorithms/static/js/main.0ece57ef.chunk.js",
+    "main.js.map": "/visual-pathfinding-algorithms/static/js/main.0ece57ef.chunk.js.map",
+    "runtime-main.js": "/visual-pathfinding-algorithms/static/js/runtime-main.0f80f34f.js",
+    "runtime-main.js.map": "/visual-pathfinding-algorithms/static/js/runtime-main.0f80f34f.js.map",
+    "static/js/2.ec2f730f.chunk.js": "/visual-pathfinding-algorithms/static/js/2.ec2f730f.chunk.js",
+    "static/js/2.ec2f730f.chunk.js.map": "/visual-pathfinding-algorithms/static/js/2.ec2f730f.chunk.js.map",
+    "static/js/3.22a81cc0.chunk.js": "/visual-pathfinding-algorithms/static/js/3.22a81cc0.chunk.js",
+    "static/js/3.22a81cc0.chunk.js.map": "/visual-pathfinding-algorithms/static/js/3.22a81cc0.chunk.js.map",
+    "index.html": "/visual-pathfinding-algorithms/index.html",
+    "static/css/main.cde6ea50.chunk.css.map": "/visual-pathfinding-algorithms/static/css/main.cde6ea50.chunk.css.map",
+    "static/js/2.ec2f730f.chunk.js.LICENSE.txt": "/visual-pathfinding-algorithms/static/js/2.ec2f730f.chunk.js.LICENSE.txt",
+    "static/media/logo.50d5c895.svg": "/visual-pathfinding-algorithms/static/media/logo.50d5c895.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c75f4f5.js",
+    "static/js/runtime-main.0f80f34f.js",
     "static/js/2.ec2f730f.chunk.js",
     "static/css/main.cde6ea50.chunk.css",
     "static/js/main.0ece57ef.chunk.js"
