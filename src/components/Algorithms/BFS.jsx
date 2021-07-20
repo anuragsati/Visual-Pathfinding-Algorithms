@@ -5,7 +5,7 @@ let shortestPath = [];
 let startNode, endNode;
 
 const windowWidth =  Math.floor(window.innerWidth/22);
-const windowHeight =  Math.floor((window.innerHeight-200)/21);
+const windowHeight =  Math.floor((window.innerHeight-150)/21);
 
 export default function BFS(grid, START_NODE, END_NODE){
 	visited = []

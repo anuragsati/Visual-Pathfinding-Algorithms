@@ -11,7 +11,6 @@
 	border: 1px solid var(--grid-border);
 	display: inline-block;
 	margin-left: -1px;
-	margin-bottom: -4px;
 }
 
 .node-end {
@@ -35,7 +34,7 @@
 }
 
 @keyframes drawWall {
-	0% { transform: scale(0.8); }
+	0% { transform: scale(0.9); }
 	50% { transform: scale(1.1); }
 	100% { transform: scale(1); }
 }
@@ -71,8 +70,6 @@
 
 @keyframes shortestPath{
 	0% { transform: scale(0.9); }
-    
 	50% { transform: scale(1.1);}
-    
 	100% { transform: scale(1); }
 }

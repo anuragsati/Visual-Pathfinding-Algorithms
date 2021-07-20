@@ -9,9 +9,7 @@ import BFS from '../Algorithms/BFS'
 const START_NODE = [10, 4];
 const END_NODE =  [15, 45];
 const windowWidth =  Math.floor(window.innerWidth/22);
-const windowHeight =  Math.floor((window.innerHeight-200)/21);
-
-
+const windowHeight =  Math.floor((window.innerHeight - 150)/21);
 
 
 const MainPage = () => {
@@ -24,8 +22,6 @@ const MainPage = () => {
 		let initialGrid = getInitialGrid();
 		setGrid(initialGrid);
 	}, []);
-
-
 
 
 	// =========== Additional Functions =============
@@ -140,29 +136,37 @@ const MainPage = () => {
 
 		{/* =====Header====== */}
 		<nav className="navbar">
+			<a> <img className="logo" src={logo} /> </a>
+
+			<div className="legend">
+				<div className="legend-item">
+					<div className="symbol symbol-start"></div>
+					<span className="symbol-text">Start Node</span>
+				</div>
+				<div className="legend-item">
+					<div className="symbol symbol-end"></div>
+					<span className="symbol-text">End Node</span>
+				</div>
+				<div className="legend-item">
+					<div className="symbol symbol-wall"></div>
+					<span className="symbol-text">Wall</span>
+				</div>
+			</div>
+
 			<ul className="navbar-nav">
-				<li className=""> <img className="logo" src={logo} /> </li>
-				<li className="nav-item dropdown"> 
-					<a href="#" className="nav-link dropbtn"> Select algorithm </a>
-					<div className="dropdown-content">
-						<a href="#"> BFS </a>
-						<a href="#"> A* </a>
-						<a href="#"> D* </a>
-						<a href="#"> DFS </a>
-						<a href="#"> Dijkstra's Algorithm </a>
-					</div>
-				</li>
+				{/* <li className="nav-item"> <a href="#" className="nav-link"> BFS </a> </li> */}
 				<li className="nav-item"> <a href="#" className="nav-link" onClick={() => resetAll()}> Reset All </a> </li>
-				<li className="nav-item"> <a href="#" className="nav-link" onClick={() => resetAllExceptWalls()}> Reset (except walls)</a> </li>
+				<li className="nav-item"> <a href="#" className="nav-link" onClick={() => resetAllExceptWalls()}> Reset (Keep Walls)</a> </li>
 				<li className="nav-item"> <a href="#" className="nav-link visualize-button" onClick={() => BFS(grid, START_NODE, END_NODE)}> Visualize </a> </li>
 			</ul>
+
 		</nav>
 
 		{/* =====Grid====== */}
-		<div className="grid" id="asdf">
+		<div className="grid">
 			{
 				grid.map(row => 
-					<div>
+					<div className="inner-grid-div">
 							{
 								row.map(node => 
 									{
