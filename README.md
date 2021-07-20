@@ -11,7 +11,7 @@
 # Visual Pathfinder
 Visual Pathfinder helps you easily visualize complex pathfinding algorithms with an easy to use and beginner fiendly UI.
 
-check live demo @[visual pathfinder](https://anuragsati.github.io/visual-pathfinding-algorithms/)
+check live demo @[visual pathfinder](https://anuragsati.github.io/visual-pathfinder/)
 <br>
 <br>
 
@@ -39,9 +39,9 @@ check live demo @[visual pathfinder](https://anuragsati.github.io/visual-pathfin
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Watch this project live @[Visual Pathfinder](https://anuragsati.github.io/visual-pathfinding-algorithms/)
+Watch this project live @[Visual Pathfinder](https://anuragsati.github.io/visual-pathfinder/)
 
-[![visual pathfinder screenshot][product-screenshot]](https://anuragsati.github.io/visual-pathfinding-algorithms/)
+[![visual pathfinder screenshot][product-screenshot]](https://anuragsati.github.io/visual-pathfinder/)
 
 
 <!-- GETTING STARTED -->
