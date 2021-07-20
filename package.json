@@ -1,8 +1,8 @@
 {
-  "name": "visual-pathfinding-algorithms",
+  "name": "visual-pathfinder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://anuragsati.github.io/visual-pathfinding-algorithms",
+  "homepage": "https://github.com/anuragsati/visual-pathfinder",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
